@@ -1,4 +1,6 @@
 #!/bin/python3
+
+
 def make_change(x):
     coins = [25, 10, 5, 1]
     coin_counter = 0
@@ -12,4 +14,4 @@ def make_change(x):
 if __name__ == '__main__':
     x = 167
     result = make_change(x)
-    print(result)
+    print(f'result {result}')
